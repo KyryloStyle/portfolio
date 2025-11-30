@@ -11,9 +11,8 @@
         About Me
       </h1>
       <p class="mt-4 text-gray-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed font-normal">
-        I am Kyrylo, a Junior Frontend Developer with a <strong>Software Engineering degree (2025)</strong>.
-        I build clean, interactive web applications using <strong>Vue.js</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>vanilla JS</strong>.
-        I am passionate about <strong>UI animations</strong> and application logic, delivering professional and efficient solutions.
+        I am Kyrylo, a <strong>Software Engineering graduate (2025)</strong> with hands-on experience building clean, interactive web applications using <strong>Vue.js</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Vanilla JavaScript</strong>.
+        I am passionate about <strong>learning new technologies</strong> and creating maintainable, efficient code that delivers excellent user experiences.
       </p>
     </Motion>
 
@@ -31,23 +30,25 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <div class="bg-gray-800/60 p-6 rounded-2xl shadow-lg hover:shadow-indigo-400/40 transition flex flex-col items-center text-center hover:-translate-y-2">
           <span class="text-4xl mb-3">💻</span>
-          <h3 class="text-lg font-semibold text-gray-100">Frontend Development</h3>
+          <h3 class="text-lg font-semibold text-gray-100">Full-Stack Development</h3>
           <p class="text-gray-400 mt-1 text-sm">
-            Can build websites pixel-perfect from a design mockup.
+            I can build clean and interactive web applications with Vue.js, React, and Vanilla JavaScript, and have basic backend experience with Python and APIs.
           </p>
         </div>
+
         <div class="bg-gray-800/60 p-6 rounded-2xl shadow-lg hover:shadow-teal-400/40 transition flex flex-col items-center text-center hover:-translate-y-2">
           <span class="text-4xl mb-3">⚡</span>
-          <h3 class="text-lg font-semibold text-gray-100">SaaS & Web Apps</h3>
+          <h3 class="text-lg font-semibold text-gray-100">IT Systems & SaaS Projects</h3>
           <p class="text-gray-400 mt-1 text-sm">
-            Experience in creating SaaS projects with interactive frontend.
+            Experience working on interactive web apps and small SaaS projects, understanding system workflows and user interfaces.
           </p>
         </div>
+
         <div class="bg-gray-800/60 p-6 rounded-2xl shadow-lg hover:shadow-amber-400/40 transition flex flex-col items-center text-center hover:-translate-y-2">
           <span class="text-4xl mb-3">🛠️</span>
-          <h3 class="text-lg font-semibold text-gray-100">Basic Backend</h3>
+          <h3 class="text-lg font-semibold text-gray-100">Problem Solving & Collaboration</h3>
           <p class="text-gray-400 mt-1 text-sm">
-            Have a basic understanding of backend development and APIs.
+            Able to work independently or in a team, learn quickly, and take responsibility for tasks and small projects.
           </p>
         </div>
       </div>
