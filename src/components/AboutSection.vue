@@ -11,8 +11,8 @@
         About Me
       </h1>
       <p class="mt-4 text-gray-300 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed font-normal">
-        I am Kyrylo, a Junior Frontend Developer with a <strong>Software Engineering degree (2025)</strong>.  
-        I build clean, interactive web applications using <strong>Vue.js</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>vanilla JS</strong>.  
+        I am Kyrylo, a Junior Frontend Developer with a <strong>Software Engineering degree (2025)</strong>.
+        I build clean, interactive web applications using <strong>Vue.js</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>vanilla JS</strong>.
         I am passionate about <strong>UI animations</strong> and application logic, delivering professional and efficient solutions.
       </p>
     </Motion>
@@ -88,9 +88,9 @@
         <img src="../assets/uni.png" alt="College" class="w-36 h-36 rounded-xl object-cover "/>
         <div class="flex-1">
           <h3 class="text-2xl font-semibold text-indigo-300">
-            <a 
-              href="https://www.kpi.kharkov.ua/eng/" 
-              target="_blank" 
+            <a
+              href="https://www.kpi.kharkov.ua/eng/"
+              target="_blank"
               class="hover:underline"
             >
               Branch of the Kharkiv Computer and Technology Professional College of NTU "KhPI"
