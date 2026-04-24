@@ -8,40 +8,33 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist -r https://github.com/KyryloStyle/portfolio.git",
-    "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
-    "lint:eslint": "eslint . --fix",
-    "lint": "run-s lint:*",
+    "deploy": "npm run build && gh-pages -d dist -r https://github.com/KyryloStyle/portfolio.git",
+    "lint": "eslint . --fix",
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.2.0",
-    "motion": "^12.23.24",
+    "@iconify/vue": "^5.0.0",
     "vue": "^3.5.22",
-    "vue-router": "^4.5.1"
+    "vue-i18n": "^10.0.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@iconify/json": "^2.2.398",
-    "@iconify/vue": "^5.0.0",
-    "@prettier/plugin-oxc": "^0.0.4",
+    "@types/node": "^25.6.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/eslint-config-prettier": "^10.2.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.33.0",
-    "eslint-plugin-oxlint": "~1.11.0",
     "eslint-plugin-vue": "~10.4.0",
     "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
-    "npm-run-all2": "^8.0.4",
-    "oxlint": "~1.11.0",
     "postcss": "^8.5.6",
     "prettier": "3.6.2",
     "tailwindcss": "^3.4.18",
-    "unplugin-icons": "^22.5.0",
+    "typescript": "^6.0.3",
     "vite": "^7.1.7",
-    "vite-plugin-vue-devtools": "^8.0.2"
+    "vue-tsc": "^3.2.7"
   }
 }
