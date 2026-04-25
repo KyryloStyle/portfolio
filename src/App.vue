@@ -23,6 +23,6 @@ import ContactSection from '@/components/sections/ContactSection.vue'
 
 const { locale } = useI18n()
 
-// Keep <html lang="..."> in sync with the active locale
+// need to Keep <html lang="..."> in sync with the active locale
 watch(locale, (lang) => { document.documentElement.lang = lang }, { immediate: true })
 </script>
