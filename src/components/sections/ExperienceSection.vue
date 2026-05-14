@@ -71,7 +71,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useI18n, type MessageFunction } from 'vue-i18n'
+import { useI18n } from 'vue-i18n'
 import { Icon } from '@iconify/vue'
 import SectionWrapper from '@/components/ui/SectionWrapper.vue'
 import kitLogo from '@/assets/logo-kit.png'
@@ -95,7 +95,7 @@ const jobs = computed(() =>
     company: t(`experience.items.${j.key}.company`),
     period: t(`experience.items.${j.key}.period`),
     location: t(`experience.items.${j.key}.location`),
-    bullets: (tm(`experience.items.${j.key}.bullets`) as MessageFunction[]).map((m) => rt(m)),
+    bullets: (tm(`experience.items.${j.key}.bullets`) as any[]).map((m) => rt(m)),
   })),
 )
 </script>
