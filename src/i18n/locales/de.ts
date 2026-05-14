@@ -4,8 +4,9 @@ const de: MessageSchema = {
   nav: {
     about: 'Über mich',
     projects: 'Projekte',
+    experience: 'Erfahrung',
+    videos: 'Videos',
     contact: 'Kontakt',
-    downloadCv: 'Lebenslauf',
   },
   lang: {
     en: 'EN',
@@ -14,11 +15,10 @@ const de: MessageSchema = {
   hero: {
     role: 'Absolvent der Softwareentwicklung',
     greeting: 'Hallo, ich bin Kyrylo Yurchenko',
-    bio: 'Frontend-Entwickler mit Schwerpunkt auf {vue} und {js}. Ich freue mich darauf, in einem Traineeprogramm in Deutschland zu starten und mich als professioneller Entwickler weiterzuentwickeln.',
+    bio: 'Software-Entwickler mit Schwerpunkt auf {vue} und {js}. Ich freue mich darauf, in einem Traineeprogramm in Deutschland zu starten und mich als professioneller Entwickler weiterzuentwickeln.',
     cta: {
       projects: 'Projekte ansehen',
       contact: 'Kontakt aufnehmen',
-      downloadCv: 'Lebenslauf',
     },
   },
   about: {
@@ -98,6 +98,56 @@ const de: MessageSchema = {
       email: 'E-Mail',
       linkedin: 'LinkedIn',
       github: 'GitHub',
+    },
+  },
+  experience: {
+    title: 'Erfahrung',
+    subtitle: 'Praktika und praktische Tätigkeiten, die meine Entwicklung als Ingenieur geprägt haben.',
+    items: {
+      freelance: {
+        role: 'Freiberuflicher / Unabhängiger Entwickler',
+        company: 'Selbstständig',
+        period: '2024 – heute',
+        location: 'Remote',
+        bullets: [
+          'Entwicklung persönlicher und Kundenprojekte mit Vue.js, React, Python und TypeScript.',
+          'Konzeption und Deployment von Full-Stack-Webanwendungen von Anfang bis Ende.',
+          'Kontinuierliches Lernen neuer Tools, Frameworks und Best Practices.',
+        ],
+      },
+      kit: {
+        role: 'Python-Lehrassistent',
+        company: 'KIT — Ukrainische Schule für Programmierung und Webdesign',
+        period: 'Jun. 2025 – Aug. 2025 · 3 Monate',
+        location: 'Ukraine · Remote · Praktikum',
+        bullets: [
+          'Unterstützung bei der Durchführung eines Python-Grundlagenkurses.',
+          'Vermittlung von OOP-Prinzipien, Python-Grundlagen und Django-Grundlagen.',
+        ],
+      },
+      kharkiv: {
+        role: 'Full-Stack-Entwickler (Praktikum)',
+        company: 'Stadtverwaltung Charkiw — Abteilung für digitale Transformation',
+        period: 'Feb. 2025 – Apr. 2025 · 3 Monate',
+        location: 'Charkiw, Ukraine · Remote · Praktikum',
+        bullets: [
+          'Entwicklung von Full-Stack-Webanwendungen mit Vue.js und Python.',
+          'Aufbau von REST-APIs und Arbeit mit PostgreSQL-Datenbanken.',
+          'Teamarbeit an neuen Projekten von Grund auf.',
+        ],
+      },
+    },
+  },
+  videos: {
+    title: 'Sprachpräsentation',
+    subtitle: 'Schau mir zu – eine kurze Vorstellung auf Englisch und Deutsch.',
+    english: {
+      label: 'English',
+      description: 'Vorstellung auf Englisch – Niveau B2.',
+    },
+    german: {
+      label: 'Deutsch',
+      description: 'Vorstellung auf Deutsch – Niveau B2.',
     },
   },
   footer: {

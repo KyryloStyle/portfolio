@@ -34,14 +34,6 @@
           </button>
         </div>
 
-        <a
-          href="/portfolio/cv.pdf"
-          download
-          class="inline-flex items-center gap-2 rounded-lg bg-indigo-500 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-400"
-        >
-          <Icon icon="lucide:download" class="h-4 w-4" />
-          {{ t('nav.downloadCv') }}
-        </a>
       </div>
 
       <!-- Mobile: lang switcher + hamburger -->
@@ -85,14 +77,6 @@
             </a>
           </li>
         </ul>
-        <a
-          href="/portfolio/cv.pdf"
-          download
-          class="mt-5 inline-flex w-fit items-center gap-2 rounded-lg bg-indigo-500 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-400"
-        >
-          <Icon icon="lucide:download" class="h-4 w-4" />
-          {{ t('nav.downloadCv') }}
-        </a>
       </div>
     </Transition>
   </header>
@@ -110,7 +94,9 @@ const locales: SupportedLocale[] = ['en', 'de']
 
 const navLinks = [
   { href: '#about', labelKey: 'nav.about' },
+  { href: '#experience', labelKey: 'nav.experience' },
   { href: '#projects', labelKey: 'nav.projects' },
+  { href: '#videos', labelKey: 'nav.videos' },
   { href: '#contact', labelKey: 'nav.contact' },
 ] as const
 

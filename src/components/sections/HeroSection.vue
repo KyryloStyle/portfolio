@@ -65,14 +65,6 @@
         >
           {{ t('hero.cta.contact') }}
         </a>
-        <a
-          href="/portfolio/cv.pdf"
-          download
-          class="flex items-center gap-2 rounded-lg border border-indigo-500/50 px-6 py-3 text-sm font-semibold text-indigo-400 transition-all hover:-translate-y-0.5 hover:border-indigo-400 hover:text-indigo-300"
-        >
-          <Icon icon="lucide:download" class="h-4 w-4" />
-          {{ t('hero.cta.downloadCv') }}
-        </a>
       </div>
 
       <!-- Social links -->

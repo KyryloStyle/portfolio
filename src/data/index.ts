@@ -32,6 +32,7 @@ export const skills: Skill[] = [
   { name: 'Python', icons: ['devicon:python'] },
   { name: 'HTML & CSS', icons: ['devicon:html5', 'devicon:css3'] },
   { name: 'Tailwind', icons: ['devicon:tailwindcss'] },
+  { name: 'PostgreSQL', icons: ['devicon:postgresql'] },
 ]
 
 export const languages: LanguageMeta[] = [

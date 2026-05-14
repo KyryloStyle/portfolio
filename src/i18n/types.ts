@@ -2,8 +2,9 @@ export interface MessageSchema {
   nav: {
     about: string
     projects: string
+    experience: string
+    videos: string
     contact: string
-    downloadCv: string
   }
   lang: {
     en: string
@@ -16,7 +17,6 @@ export interface MessageSchema {
     cta: {
       projects: string
       contact: string
-      downloadCv: string
     }
   }
   about: {
@@ -72,6 +72,39 @@ export interface MessageSchema {
       linkedin: string
       github: string
     }
+  }
+  experience: {
+    title: string
+    subtitle: string
+    items: {
+      freelance: {
+        role: string
+        company: string
+        period: string
+        location: string
+        bullets: string[]
+      }
+      kit: {
+        role: string
+        company: string
+        period: string
+        location: string
+        bullets: string[]
+      }
+      kharkiv: {
+        role: string
+        company: string
+        period: string
+        location: string
+        bullets: string[]
+      }
+    }
+  }
+  videos: {
+    title: string
+    subtitle: string
+    english: { label: string; description: string }
+    german: { label: string; description: string }
   }
   footer: {
     rights: string
