@@ -95,7 +95,7 @@ const jobs = computed(() =>
     company: t(`experience.items.${j.key}.company`),
     period: t(`experience.items.${j.key}.period`),
     location: t(`experience.items.${j.key}.location`),
-    bullets: (tm(`experience.items.${j.key}.bullets`) as any[]).map((m) => rt(m)),
+    bullets: (tm(`experience.items.${j.key}.bullets`) as any[]).map((m: any) => rt(m) as string),
   })),
 )
 </script>
