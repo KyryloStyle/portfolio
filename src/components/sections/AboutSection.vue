@@ -104,6 +104,12 @@
           <span class="text-sm font-semibold text-indigo-400">
             {{ lang.level === 'native' ? t('about.nativeLevel') : lang.level }}
           </span>
+          <template v-if="lang.certs">
+            <div v-for="cert in lang.certs" :key="cert.label" class="flex items-center gap-1 text-center">
+              <span class="text-xs text-gray-500">{{ cert.label }}</span>
+              <span v-if="cert.note" class="rounded-full bg-indigo-500/15 px-1.5 py-0.5 text-xs text-indigo-400">{{ cert.note }}</span>
+            </div>
+          </template>
         </div>
       </div>
     </div>

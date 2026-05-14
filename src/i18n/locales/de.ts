@@ -15,7 +15,7 @@ const de: MessageSchema = {
   hero: {
     role: 'Absolvent der Softwareentwicklung',
     greeting: 'Hallo, ich bin Kyrylo Yurchenko',
-    bio: 'Software-Entwickler mit Schwerpunkt auf {vue} und {js}. Ich freue mich darauf, in einem Traineeprogramm in Deutschland zu starten und mich als professioneller Entwickler weiterzuentwickeln.',
+    bio: 'Software-Entwickler mit Schwerpunkt auf {vue} und {js}. Offen für neue Möglichkeiten und bereit, sich als professioneller Entwickler weiterzuentwickeln.',
     cta: {
       projects: 'Projekte ansehen',
       contact: 'Kontakt aufnehmen',

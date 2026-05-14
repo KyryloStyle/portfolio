@@ -16,7 +16,7 @@ const en: MessageSchema = {
     role: 'Software Engineering Graduate',
     greeting: "Hi, I'm Kyrylo Yurchenko",
     // {vue} and {js} are named slots for <i18n-t>
-    bio: 'Software engineer focused on {vue} and {js}. Eager to contribute to a Trainee program in Germany and grow into a professional engineering role.',
+    bio: 'Software engineer focused on {vue} and {js}. Open to new opportunities and ready to grow into a professional engineering role.',
     cta: {
       projects: 'View Projects',
       contact: 'Contact Me',

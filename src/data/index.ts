@@ -14,6 +14,7 @@ export interface LanguageMeta {
   key: string
   level: string
   flagIcon: string
+  certs?: { label: string; note?: string }[]
 }
 
 export interface ProjectMeta {
@@ -38,7 +39,15 @@ export const skills: Skill[] = [
 export const languages: LanguageMeta[] = [
   { key: 'ukrainian', level: 'native', flagIcon: 'circle-flags:ua' },
   { key: 'english', level: 'B2', flagIcon: 'circle-flags:gb' },
-  { key: 'german', level: 'B2', flagIcon: 'circle-flags:de' },
+  {
+    key: 'german',
+    level: 'B2',
+    flagIcon: 'circle-flags:de',
+    certs: [
+      { label: 'B2 Mittelstufe II · TESTIZER · Apr 2026' },
+      { label: 'telc B2', note: 'in progress' },
+    ],
+  },
   { key: 'russian', level: 'C2', flagIcon: 'circle-flags:ru' },
 ]
 
