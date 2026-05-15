@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/portfolio/',
+  base: process.env.RAILWAY_ENVIRONMENT ? '/' : '/portfolio/',
   plugins: [vue()],
   resolve: {
     alias: {
