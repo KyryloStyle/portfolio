@@ -1,6 +1,6 @@
-import bankaFunkaImg from '@/assets/projects/banka-funka.png'
-import wrongTranslatorImg from '@/assets/projects/wrong-translator.png'
-import passwodinoImg from '@/assets/projects/passwodino.png'
+import bankaFunkaImg from '@/assets/projects/Banka-Funka.jpg'
+import wrongTranslatorImg from '@/assets/projects/wrong-translator.jpg'
+import passwodinoImg from '@/assets/projects/passwodino.jpg'
 
 // Non-translatable data only.
 // All user-facing text lives in src/i18n/locales/.
